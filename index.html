@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carolin Jonna | Data Analyst</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+/* ---------- GLOBAL ---------- */
+body{
+    margin:0;
+    font-family:Poppins, sans-serif;
+    background:#0c0c0c;
+    color:white;
+    scroll-behavior:smooth;
+}
+
+section{
+    padding:60px;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+/* ---------- NAVBAR ---------- */
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 60px;
+}
+
+nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+/* ---------- HERO ---------- */
+/* ---------- HERO ---------- */
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-top:120px; /* moves content little down */
+}
+
+.hero-text{
+    width:55%;
+}
+
+.hero-text h1{
+    font-size:60px;   /* BIG NAME */
+    margin-bottom:5px;
+}
+
+.hero-text h4{
+    font-weight:300;
+    color:#cfcfcf;
+    letter-spacing:2px;
+    margin-top:0;
+}
+
+/* PROFILE IMAGE */
+.hero img{
+    width:300px;
+    height:300px;
+    border-radius:50%;   /* circle image */
+    object-fit:cover;
+    margin-right:100px;   /* move image slightly left */
+}
+
+/* BUTTON */
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 24px;
+    border:1px solid white;
+    border-radius:6px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:white;
+    color:black;
+}
+
+/* ---------- TITLES ---------- */
+h2{
+    border-left:4px solid white;
+    padding-left:10px;
+    margin-bottom:30px;
+}
+
+/* ---------- GRID ---------- */
+.grid{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+/* ---------- CARD ---------- */
+.card{
+    background:#151515;
+    padding:20px;
+    border-radius:10px;
+    flex:1;
+    min-width:250px;
+}
+
+/* ---------- SKILLS ---------- */
+.skill{
+    background:#1f1f1f;
+    padding:10px 15px;
+    border-radius:20px;
+    display:inline-block;
+    margin:8px;
+    transition:0.3s;
+}
+
+.skill:hover{
+    background:#2a2a2a;
+}
+
+/* ---------- CONTACT SIDE LAYOUT ---------- */
+.contact-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.contact-item{
+    background:#1f1f1f;
+    padding:15px 20px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.contact-item:hover{
+    transform:translateY(-5px);
+    background:#2a2a2a;
+}
+
+/* ---------- ANIMATION ---------- */
+.fade-in{
+    opacity:0;
+    transform:translateY(20px);
+    animation:fadeUp 1s ease forwards;
+}
+
+@keyframes fadeUp{
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+/* ---------- FOOTER ---------- */
+footer{
+    text-align:center;
+    padding:30px;
+    color:#888;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+<h3></h3>
+
+<ul>
+<li><a href="#education">Education</a></li>
+<li><a href="#work">Work</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<!-- HERO -->
+<!-- HERO -->
+<section class="hero fade-in">
+
+<div class="hero-text">
+
+<h1>CAROLIN JONNA</h1>
+<h4>data analyst</h4>
+
+<p>
+MCA student passionate about data analytics and problem solving.
+I focus on understanding data, identifying insights,
+and creating meaningful solutions through analytical thinking.
+</p>
+
+<a href="https://www.linkedin.com/in/carolin-jonna?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+target="_blank" class="btn">
+View LinkedIn →
+</a>
+
+</div>
+
+<img src="carolin.jpg" alt="Profile">
+
+</section>
+
+
+<!-- EDUCATION -->
+<section id="education" class="fade-in">
+
+<h2>Education</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>MCA</h3>
+<p>SMS College of Technology, Coimbatore</p>
+<p><b>2025 – Present</b></p>
+</div>
+
+<div class="card">
+<h3>B.Sc Mathematics</h3>
+<p>Undergraduate Degree</p>
+<p><b>Percentage: 82%</b></p>
+</div>
+
+<div class="card">
+<h3>Higher Secondary (12th)</h3>
+<p>State Board</p>
+<p><b>78%</b></p>
+</div>
+
+</div>
+
+</section>
+
+<!-- WORK -->
+<section id="work" class="fade-in">
+
+<h2>Work / Project</h2>
+
+<div class="card">
+<h3>She Connect – Design Thinking Project</h3>
+
+<p>
+She Connect is a platform designed to connect women entrepreneurs
+with mentors, investors, and networking opportunities.
+The project focused on research, ideation, and problem solving
+using design thinking methodology.
+</p>
+
+</div>
+
+</section>
+
+<!-- SOFT SKILLS -->
+<section id="skills" class="fade-in">
+
+<h2>Soft Skills</h2>
+
+<div>
+<span class="skill">Analytical Thinking</span>
+<span class="skill">Problem Solving</span>
+<span class="skill">Communication</span>
+<span class="skill">Team Collaboration</span>
+<span class="skill">Time Management</span>
+<span class="skill">Adaptability</span>
+<span class="skill">Critical Thinking</span>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="fade-in">
+
+<h2>Contact</h2>
+
+<div class="card">
+
+<div class="contact-row">
+
+<div class="contact-item">
+📧
+<a href="mailto:carolin.us.mca.2025@snsct.org">
+carolin.us.mca.2025@snsct.org
+</a>
+</div>
+
+<div class="contact-item">
+📱
+<a href="tel:+919487372721">
++91 9487372721
+</a>
+</div>
+
+<div class="contact-item">
+🔗
+<a href="https://www.linkedin.com/in/carolin-jonna?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+target="_blank">
+LinkedIn Profile
+</a>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+Carolin Jonna | Data Analyst
+</footer>
+
+</body>
+</html>
